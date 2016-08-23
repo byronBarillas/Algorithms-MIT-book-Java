@@ -20,9 +20,7 @@ public class InsertionSort {
             
             while( (i >= 0) && (A[i] >= key)){      //The second factor needs to be tested only when the first is true
                 A[i+1] = A[i];                      //Otherwise it tests A[-1] in the start of algorithms
-                //DEBUG
-                System.out.println("i: "+i);
-                System.out.println(Arrays.toString(A));
+
                 i = i - 1;
             }
             
